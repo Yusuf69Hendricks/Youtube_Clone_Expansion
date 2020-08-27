@@ -1,0 +1,9 @@
+@media screen and (max-width: 986px) {
+    .video-img, .video-details{
+      width: 100%;
+    }
+
+    .search{
+        display: none;
+    }
+  }
