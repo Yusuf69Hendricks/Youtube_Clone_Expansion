@@ -5,6 +5,25 @@
     --color-grey-light: #e5e5e5;
     --color-bg:#f9f9f9;
 }
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(96, 96, 96);
+    font-size: 15px;
+    padding-left: 15px;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(96, 96, 96);
+    padding-left: 15px;
+    font-size: 15px;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(96, 96, 96);
+    padding-left: 15px;
+    font-size: 15px;
+  }
 *{
     margin: 0;
     padding: 0;
@@ -40,14 +59,14 @@ font-family: 'Roboto', sans-serif;
 }
 
 .icons{
-    margin-right: 10px;
+    margin-right: 25px;
 }
 .menuBar{
     display: flex;
     /* automatically makes content a video */
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 60px;
 
 }
 
@@ -69,7 +88,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .menuBar .search form{
-    border: 1px solid #ddd;
+    border: 1px solid #dddd;
     height: 32px;
     margin: 0;
     padding: 0;
@@ -156,6 +175,7 @@ font-family: 'Roboto', sans-serif;
     width: 70px;
     margin: 0 auto;
     text-align: center;
+    padding-top: 20px;
     /* background-color: red; */
  }
 
@@ -165,7 +185,7 @@ font-family: 'Roboto', sans-serif;
  }
 
  .mini-category .res-category i {
-     font-size: 25px;
+     font-size: 20px;
  }
 
  .mini-category p{
@@ -176,6 +196,11 @@ font-family: 'Roboto', sans-serif;
  .mini-category .res-category .material-icons.active,.res-category .p-active {
     color: red;
 }
+
+.mini-category .res-category:hover{
+    background: var(--color-grey-light);
+    cursor: pointer;
+}
 /* MINI CATEGORY END  */
 
  /* VIDEO START  */
@@ -184,7 +209,6 @@ font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100%;
     padding: 15px 25px;
-    border-top: 1px solid #ddd;
     overflow-y: scroll;
     
 }
@@ -194,12 +218,12 @@ font-family: 'Roboto', sans-serif;
     min-height: 200px;
   }
   .video-img{
-      width: 35%;
+    width: 30%;
     position: relative;
 
   }
   .video-details{
-      width: 65%;
+      width: 70%;
   }
 
 .video-details p{
@@ -240,7 +264,7 @@ font-family: 'Roboto', sans-serif;
     left: 0;
     right: 0;
     height: 138px;
-    width: 93%;
+    width: 94%;
     opacity: 0;
     transition: .5s ease;
     background-color: red;
@@ -261,10 +285,14 @@ font-family: 'Roboto', sans-serif;
 .trend{
     margin: 0 auto;
     padding-bottom: 20px;
+    
 }
-  .trending-icons img{
-      border-radius: 50%;
-  }
+.trending-icons img{
+    border-radius: 50%;
+}
 
+.trending-icons a {
+    text-decoration: none;
+}
 
 /* MAIN BODY END  */
