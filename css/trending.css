@@ -78,7 +78,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .menuBar .search input{
-    width: 600px;
+    width: 400px;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -107,16 +107,16 @@ font-family: 'Roboto', sans-serif;
     height: calc(100vh - 70px);
     /* Above basically sets the height of main body to the hight of the screen but calc subtracts the height of menuBar that we set to 70px */
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* above hides the scroolbar */
 }
 
 .mainBody .catagories{
     height: 100%;
-    width: 230px;
-    /* background-color: red; */ 
-    background-color: white;
+    width: 310px;
+    /* background-color: blue; */
     overflow-y: scroll;
+
     /* adds scroll bar for the hieght of the div */
 }
 
@@ -126,6 +126,7 @@ font-family: 'Roboto', sans-serif;
     flex-direction: column;
     margin-bottom: 15px;
     margin-top: 15px;
+    /* display: none; */
 }
 
 .mainBody .catagories .catagoriesSection .category{
@@ -148,7 +149,14 @@ font-family: 'Roboto', sans-serif;
     background: var(--color-grey);
     cursor: pointer;
  }
-
+/* MINI CATEGORY START  */
+ .mini-category{
+    display: none;
+    height: 100%;
+    width: 70px;
+    /* background-color: red; */
+ }
+/* MINI CATEGORY END  */
 
  /* VIDEO START  */
 .videos {

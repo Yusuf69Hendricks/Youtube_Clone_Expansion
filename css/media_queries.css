@@ -7,3 +7,16 @@
         display: none;
     }
   }
+
+/* category start  */
+    @media screen and (max-width: 1313px) {
+      .catagories{
+        display: none;
+      }
+
+      .mini-category{
+        display: block;
+      }
+    }
+
+/* category end  */
