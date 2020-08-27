@@ -154,8 +154,28 @@ font-family: 'Roboto', sans-serif;
     display: none;
     height: 100%;
     width: 70px;
+    margin: 0 auto;
+    text-align: center;
     /* background-color: red; */
  }
+
+ .mini-category .res-category{
+     padding: 5px;
+     margin-bottom: 25px;
+ }
+
+ .mini-category .res-category i {
+     font-size: 25px;
+ }
+
+ .mini-category p{
+    font-size: 10px;
+    color: rgb(96, 96, 96);
+ }
+
+ .mini-category .res-category .material-icons.active,.res-category .p-active {
+    color: red;
+}
 /* MINI CATEGORY END  */
 
  /* VIDEO START  */
