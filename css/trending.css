@@ -29,7 +29,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* .icons .active-i{
+    display: none;
+} */
 hr {
     height: 1px;
     background-color: var(--color-grey);
@@ -274,7 +276,8 @@ font-family: 'Roboto', sans-serif;
     opacity: 1;
   }
 .trending-icons{
-    display: flex;
+    display: inline-flex;
+    
 }
 
 .trend p{
@@ -285,6 +288,7 @@ font-family: 'Roboto', sans-serif;
 .trend{
     margin: 0 auto;
     padding-bottom: 20px;
+    margin-right: 80px;
     
 }
 .trending-icons img{
