@@ -25,6 +25,9 @@
   .search{
       display: none;
   }
+  #active-i{
+    display: inline;
+  }
 
   
 }
@@ -48,6 +51,8 @@
     margin-left: 10px;
     margin-top: 15px;
   }
+
+
   
 }
 /* TABLET  */
@@ -75,17 +80,15 @@
   }
 
   .video-details h3{
-    width: 100%;
-    font-size: 16px;
-    text-align: left;
+    display: none;
   }
 
   .video-details p {
     width: 100%;
     text-align: center;
+    font-size: 12px;
   }
 
-  
   .video-details .info{
     display: none;
   }
@@ -117,6 +120,9 @@
   .menuBar .icons{
     margin-right: 0;
   }
+
+  .left, .right,.middle{
+    display: flex;
 }
 /* MOBILE LARGE */
 
@@ -152,6 +158,8 @@
   }
 
  
+}
+
 }
 /* MOBILE MEDIUM  */
 
