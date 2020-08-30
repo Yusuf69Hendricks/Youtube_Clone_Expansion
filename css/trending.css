@@ -207,6 +207,10 @@ font-family: 'Roboto', sans-serif;
     background: var(--color-grey-light);
     cursor: pointer;
 }
+
+.mini-category .res-category a{
+    text-decoration: none;
+}
 /* MINI CATEGORY END  */
 
  /* VIDEO START  */
@@ -321,7 +325,7 @@ font-family: 'Roboto', sans-serif;
     left: 0;
     right: 0;
     height: 138px;
-    width: 94%;
+    width: 93%;
     opacity: 0;
     transition: .5s ease;
     background-color: red;

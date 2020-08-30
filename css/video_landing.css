@@ -32,7 +32,9 @@ hr {
     background-color: var(--color-grey);
     border: none;
 }
-
+#active-i{
+    display: none;
+}
 
 h1{
     font-size: 20px;

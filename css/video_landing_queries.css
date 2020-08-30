@@ -1,735 +1,765 @@
-
-
 /* TABLET  */
 @media screen and (max-width: 986px) {
-   #active-i{
-       display: none;
-   }
-  .icons{
-      display: flex;
-      align-items: center;
-  }
-
-  .menuBar .search input{
-      width: 300px;
-  }
-.title i{
+  #active-i {
     display: none;
-}
-
-  .title span{
-      font-size: 12px;
-      padding-bottom: 5px;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
   }
 
+  .menuBar .search input {
+    width: 300px;
+  }
+  .title i {
+    display: none;
+  }
+
+  .title span {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
 
   .video-details {
-      width: 50%;
+    width: 50%;
   }
 
   .video-img {
-      width: 50%;
+    width: 50%;
   }
 
-  .video-source .right button{
-      margin-left: 0;
+  .video-source .right button {
+    margin-left: 0;
   }
 
-  .right button{
-      width: 80%;
-      font-size: 10px;
+  .right button {
+    width: 80%;
+    font-size: 10px;
   }
 
-  .dropdown{
-      display: none;
-  }
- 
-  .videos span.views{
-      padding: 0;
-      display: none;
-  }
-  .videos span.more{
-      display: none;
-  }
-  .videos span.likes, .videos span.dislikes, .videos span.share, .videos span.save{
-      padding: 5px;
+  .dropdown {
+    display: none;
   }
 
-
-  .numbers{
-      display: flex;
+  .videos span.views {
+    padding: 0;
+    display: none;
+  }
+  .videos span.more {
+    display: none;
+  }
+  .videos span.likes,
+  .videos span.dislikes,
+  .videos span.share,
+  .videos span.save {
+    padding: 5px;
   }
 
-  .up-next h2{
-      padding-top: 10px;
-      padding-bottom: 10px;
+  .numbers {
+    display: flex;
   }
 
-  .comments .add form{
-     padding-left: 30px; 
-}
+  .up-next h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 
-.comments .comment-content{
+  .comments .add form {
+    padding-left: 30px;
+  }
+
+  .comments .comment-content {
     padding-left: 40px;
-}
+  }
 }
 /* TABLET  */
 
 /* TABLET SM */
-@media screen and (max-width:767px){
-    .video-img img{
-        width: 90%;
-    }
+@media screen and (max-width: 767px) {
+  .video-img img {
+    width: 90%;
+  }
 
-    .search {
-        display: none;
-    }
+  .search {
+    display: none;
+  }
 
-    .video-source .middle{
-        padding-left: 30px
-    }
+  .video-source .middle {
+    padding-left: 30px;
+  }
 
-    .show-more p{
-        padding-left: 15px;
-        padding-right: 0;
-    }
+  .show-more p {
+    padding-left: 15px;
+    padding-right: 0;
+  }
 
-    .show-more h4{
-        padding-left: 0;
-    }
+  .show-more h4 {
+    padding-left: 0;
+  }
 
-    .right button{
-        width: 100%;
-        font-size: 1.5vw;
-    }
+  .right button {
+    width: 100%;
+    font-size: 1.5vw;
+  }
 
-    .numbers {
-        display: flex;
-        align-items: center;
-    }
-    .numbers span.views{
-         display: none;
-    }
- 
- 
-    .numbers span.likes,.numbers span.dislikes,.numbers span.share,.numbers span.save,.numbers span.more,.numbers span.report{
-        display: block;
-        text-align: center;
-        padding-right:0;
-    }
- 
-    .numbers span.likes i,.numbers span.dislikes i,.numbers span.share i,.numbers span.save i,.numbers span.more i,.numbers span.report i{
-     padding-left: 10px;
-     font-size: 25px;
- }
- 
-    .numbers span.more{
-     display: none;
- }
- 
+  .numbers {
+    display: flex;
+    align-items: center;
+  }
+  .numbers span.views {
+    display: none;
+  }
+
+  .numbers span.likes,
+  .numbers span.dislikes,
+  .numbers span.share,
+  .numbers span.save,
+  .numbers span.more,
+  .numbers span.report {
+    display: block;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .numbers span.likes i,
+  .numbers span.dislikes i,
+  .numbers span.share i,
+  .numbers span.save i,
+  .numbers span.more i,
+  .numbers span.report i {
+    padding-left: 10px;
+    font-size: 25px;
+  }
+
+  .numbers span.more {
+    display: none;
+  }
 }
 /* TABLET SM  */
 
-
-
-
-
 /* MOBILE LARGE  */
 @media screen and (max-width: 500px) {
-    .search,
-    .comments {
-        display: none;
-    }
-
-
-    #active-i{
-        display: flex;
-    }
- 
-    .menuBar i:not(#active-i){
-        display: none;
-    }
-    
-    .title h3{
-     display: flex;
-     padding-right: 15px;
-     padding-left: 15px;
-    }
-    .title i{
-        padding-left: 80px;
-        display: flex;
-        color: #302c2c;
-    }
-    .title span{
-        font-size: 12px;
-        padding-bottom: 5px;
-        padding-left: 10px;
-    }
-    .mainBody {
-        width: 100%;
-    }
- 
-    .mainBody .up-next,.mainBody .videos{
-        width: 100%; 
-    }
-    .main-video img{
-     width: 100%;
-     }
- 
- 
-    .videos{
-        padding: 0;
-        height: 470px;
-    }
- 
- 
-    .videos .show-more{
-        display: none;
-    }
- 
-    .video{
-        height: 90px;
-    }
-
- 
-    .up-next h2{
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
- 
-    .up-next hr{
-        display: none;
-    }
- 
-    .numbers {
-        display: flex;
-    }
-    .numbers span.views{
-         display: none;
-    }
- 
- 
-    .numbers span.likes,.numbers span.dislikes,.numbers span.share,.numbers span.save,.numbers span.more,.numbers span.report{
-        text-align: center;
-        padding-right:0;
-    }
- 
-    .numbers span.likes i,.numbers span.dislikes i,.numbers span.share i,.numbers span.save i,.numbers span.more i,.numbers span.report i{
-     padding-left: 10px;
-     font-size: 25px;
- }
- 
-    .numbers span.more{
-     display: none;
- }
- 
- .count{
+  .search,
+  .comments {
     display: none;
-}
- 
- 
-    .left{
-     width: 10%;
-    }
-    .right{
-        width: 40%;
-        padding-left: 50px;
- 
-    }
- 
-    .right button{
-        width: 80%;
-        font-size: 14px;
-    }
-    .middle{
-     width: 50%;
-     padding-left: 20px;
-    }
- 
-    .video{
-         width: 100%;
-    }
- 
-    .video-img img{
-        width: 50%;
-        height: 80px;
-    }
- 
-    .video-details{
-        width: 50%;
-    }
- 
-    .video-details h3{
-        font-size: 13px;
-        margin-bottom: 0;
-    }
-    .video, .video-details h3,.video-details p{
-     padding-left: 10px;
-    }
- 
-    .video-details span{
-        display: none;
-    }
- 
-    .video-img img{
-        width: 100%;
-    }
-    .dropdown {
-        display: block;
-    }
-    .drop{
-        border-top:1px solid #ddd;
-        padding-top: 15px;
-        padding-bottom: 10px;
-        
-    }
-    .drop h3{
-        display: none;
-    }
+  }
 
-    .drop span{
-        display: block;
-        padding-left: 10px;
-    }
+  #active-i {
+    display: flex;
+  }
 
-    .drop button i{
-        font-size: 20px;
-        padding-right: 10px;
-    }
-/*  
+  .menuBar i:not(#active-i) {
+    display: none;
+  }
+
+  .title h3 {
+    display: flex;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .title i {
+    padding-left: 80px;
+    display: flex;
+    color: #302c2c;
+  }
+  .title span {
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  }
+  .mainBody {
+    width: 100%;
+  }
+
+  .mainBody .up-next,
+  .mainBody .videos {
+    width: 100%;
+  }
+  .main-video img {
+    width: 100%;
+  }
+
+  .videos {
+    padding: 0;
+    height: 470px;
+  }
+
+  .videos .show-more {
+    display: none;
+  }
+
+  .video {
+    height: 90px;
+  }
+
+  .up-next h2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .up-next hr {
+    display: none;
+  }
+
+  .numbers span {
+    margin: 0 auto;
+  }
+  .numbers span.views {
+    display: none;
+  }
+
+  .numbers span.likes,
+  .numbers span.dislikes,
+  .numbers span.share,
+  .numbers span.save,
+  .numbers span.more,
+  .numbers span.report {
+    display: block;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .numbers span.likes i,
+  .numbers span.dislikes i,
+  .numbers span.share i,
+  .numbers span.save i,
+  .numbers span.more i,
+  .numbers span.report i {
+    padding-left: 10px;
+    font-size: 25px;
+  }
+
+  .numbers span.more {
+    display: none;
+  }
+
+  .count {
+    display: none;
+  }
+
+  .left {
+    width: 10%;
+  }
+  .right {
+    width: 40%;
+    padding-left: 50px;
+  }
+
+  .right button {
+    width: 80%;
+    font-size: 14px;
+  }
+  .middle {
+    width: 50%;
+    padding-left: 20px;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .video-img img {
+    width: 50%;
+    height: 80px;
+  }
+
+  .video-details {
+    width: 50%;
+  }
+
+  .video-details h3 {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .video,
+  .video-details h3,
+  .video-details p {
+    padding-left: 10px;
+  }
+
+  .video-details span {
+    display: none;
+  }
+
+  .video-img img {
+    width: 100%;
+    height: 130px;
+  }
+  .video {
+    height: 150px;
+  }
+  .dropdown {
+    display: block;
+  }
+  .drop {
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    padding-bottom: 10px;
+  }
+  .drop h3 {
+    display: none;
+  }
+
+  .drop span {
+    display: block;
+    padding-left: 10px;
+  }
+
+  .drop button i {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+  /*  
     .add{
         display: none;
     } */
-   .add{
-       border-bottom: 1px solid #ddd;
-   }
+  .add {
+    border-bottom: 1px solid #ddd;
+  }
 
-   .add-input{
+  .add-input {
     width: 80%;
     display: flex;
     align-items: center;
-}
+  }
 
-.add form{
+  .add form {
     width: 100%;
     border-color: #ddd;
-}
+  }
 
-.add-input input{
+  .add-input input {
     width: 85%;
     height: 40px;
-   
-}
+  }
 
-.add-img{
+  .add-img {
     width: 15%;
-}
+  }
 
-.comment-content{
+  .comment-content {
     padding-left: 30px;
-}
+  }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
- color: rgb(96, 96, 96);
- font-size: 13px;
- padding-left: 10px;
- opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
- color: rgb(96, 96, 96);
- padding-left: 10px;
- font-size: 13px;
-}
-
-::-ms-input-placeholder { /* Microsoft Edge */
- color: rgb(96, 96, 96);
- padding-left: 10px;
-}
-   
- }
-  
-
-/* MOBILE LARGE  */
-
-/* MOBILE MEDIUM */
-@media screen and (max-width: 421px) {
-    .search {
-        display: none;
-    }
-    #active-i{
-        display: flex;
-    }
- 
-    .menuBar i:not(#active-i){
-        display: none;
-    }
-    
-    .title h3{
-     display: flex;
-     padding-right: 15px;
-     padding-left: 10px;
-    }
-
-    .title span{
-        font-size: 12px;
-        padding-bottom: 5px;
-        padding-left: 10px;
-    }
- 
-    .title i{
-        padding-left: 40px;
-        font-size: 20px;
-        color: #302c2c;
-    }
-    .mainBody {
-        width: 100%;
-    }
- 
-    .mainBody .up-next,.mainBody .videos{
-        width: 100%; 
-    }
-    .main-video img{
-     width: 100%;
-     }
- 
- 
-    .videos{
-        padding: 0;
-    }
- 
- 
-    .videos .show-more{
-        display: none;
-    }
- 
-    .video{
-        height: 90px;
-    }
- 
-    .up-next h2{
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-top: 20px;
-    }
- 
-    .up-next hr{
-        display: none;
-    }
- 
-    .numbers {
-        display: flex;
-    }
-    .numbers span.views{
-         display: none;
-    }
- 
- 
-    .numbers span.likes,.numbers span.dislikes,.numbers span.share,.numbers span.save,.numbers span.more,.numbers span.report{
-        display: block;
-        text-align: center;
-        padding-right:0;
-    }
- 
-    .numbers span.likes i,.numbers span.dislikes i,.numbers span.share i,.numbers span.save i,.numbers span.more i,.numbers span.report i{
-     padding-left: 10px;
-     font-size: 25px;
- }
- 
-    .numbers span.more{
-     display: none;
- }
- 
- .count{
-     display: none;
- }
-
- 
-    .left{
-     width: 10%;
-    }
-    .right{
-        width: 40%;
-        padding-left: 30px;
- 
-    }
- 
-    .right button{
-        width: 70%;
-        margin-left: 10px;
-        font-size: 11px;
-    }
-    .middle{
-     width: 50%;
-     padding-left: 20px;
-    }
- 
-    .video{
-         width: 100%;
-    }
- 
-    .video-img img{
-        width: 50%;
-        height: 80px;
-    }
- 
-    .video-details{
-        width: 50%;
-    }
- 
-    .video-details h3{
-        font-size: 13px;
-        margin-bottom: 0;
-    }
-    .video, .video-details h3,.video-details p{
-     padding-left: 10px;
-    }
- 
-    .video-details span{
-        display: none;
-    }
- 
-    .video-img img{
-        width: 100%;
-    }
-/*  
-    .add{
-        display: none;
-    } */
-
-    .add-input{
-        width: 80%;
-        display: flex;
-        align-items: center;
-    }
- 
-    .add form{
-        width: 100%;
-        border-color: #ddd;
-    }
- 
-    .add-input input{
-        width: 80%;
-        height: 40px;
-       
-    }
- 
-    .add-img{
-        width: 20%;
-    }
-   
-    .comment-content{
-        padding-left: 30px;
-    }
- 
-    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-     color: rgb(96, 96, 96);
-     font-size: 13px;
-     padding-left: 10px;
-     opacity: 1; /* Firefox */
-   }
-   
-   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-     color: rgb(96, 96, 96);
-     padding-left: 10px;
-     font-size: 13px;
-   }
-   
-   ::-ms-input-placeholder { /* Microsoft Edge */
-     color: rgb(96, 96, 96);
-     padding-left: 10px;
- }
-
- .dropdown {
-    display: block;
-}
-   
-   
- }
-  
-
-/* MOBILE MEDIUM */
-
-/* MOBILE SMALL */
-@media screen and (max-width: 320px) {
-   .search {
-       display: none;
-   }
-
-   #active-i{
-    display: flex;
-}
-   .menuBar i:not(#active-i){
-       display: none;
-   }
-   
-   .title h3{
-    display: flex;
-    padding-right: 15px;
-    padding-left: 10px;
-   }
-   .title span{
-    font-size: 12px;
-    padding-bottom: 5px;
-}
-   .mainBody {
-       width: 100%;
-   }
-
-   .mainBody .up-next,.mainBody .videos{
-       width: 100%; 
-   }
-   .main-video img{
-    width: 100%;
-    }
-
-
-   .videos{
-       padding: 0;
-       height: 450px;
-   }
-
-   .videos .show-more{
-       display: none;
-   }
-
-   .video{
-       height: 90px;
-   }
-
-   .up-next h2{
-       margin-bottom: 10px;
-       margin-left: 10px;
-       margin-top: 20px;
-   }
-
-   .up-next hr{
-       display: none;
-   }
-
-   .numbers {
-       display: flex;
-   }
-   .numbers span.views{
-        display: none;
-   }
-
-
-   .numbers span.likes,.numbers span.dislikes,.numbers span.share,.numbers span.save,.numbers span.more,.numbers span.report{
-       display: block;
-       text-align: center;
-       padding-right:0;
-   }
-
-   .numbers span.likes i,.numbers span.dislikes i,.numbers span.share i,.numbers span.save i,.numbers span.more i,.numbers span.report i{
-    padding-left: 10px;
-    font-size: 25px;
-}
-
-   .numbers span.more{
-    display: none;
-}
-
-
-
-   .left{
-    width: 10%;
-   }
-   .right{
-       width: 40%;
-       /* padding: 50px; */
-
-   }
-
-   .right button{
-       width: 70%;
-       margin-left: 10px;
-       font-size: 10px;
-   }
-   .middle{
-    width: 50%;
-    padding-left: 20px;
-   }
-
-   .video{
-        width: 100%;
-   }
-
-   .video-img img{
-       width: 50%;
-       height: 80px;
-   }
-
-   .video-details{
-       width: 50%;
-   }
-
-   .video-details h3{
-       font-size: 13px;
-       margin-bottom: 0;
-   }
-   .video, .video-details h3,.video-details p{
-    padding-left: 10px;
-   }
-
-   .video-details span{
-       display: none;
-   }
-
-   .video-img img{
-       width: 100%;
-   }
-
-   /* .add{
-       display: none;
-   } */
-  
-   .add-input{
-       width: 80%;
-       display: flex;
-       align-items: center;
-   }
-
-   .add form{
-       width: 100%;
-       border-color: #ddd;
-   }
-
-   .add-input input{
-       width: 80%;
-       height: 40px;
-      
-   }
-
-   .add-img{
-       width: 20%;
-   }
-  
-   .comment-content{
-       padding-left: 30px;
-   }
-
-   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: rgb(96, 96, 96);
     font-size: 13px;
     padding-left: 10px;
     opacity: 1; /* Firefox */
   }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
     color: rgb(96, 96, 96);
     padding-left: 10px;
     font-size: 13px;
   }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
     color: rgb(96, 96, 96);
     padding-left: 10px;
+  }
 }
 
-.dropdown {
+/* MOBILE LARGE  */
+
+/* MOBILE MEDIUM */
+@media screen and (max-width: 421px) {
+  .search {
+    display: none;
+  }
+  #active-i {
+    display: flex;
+  }
+
+  .menuBar i:not(#active-i) {
+    display: none;
+  }
+
+  .title h3 {
+    display: flex;
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+
+  .title span {
+    font-size: 12px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  .title i {
+    padding-left: 40px;
+    font-size: 20px;
+    color: #302c2c;
+  }
+  .mainBody {
+    width: 100%;
+  }
+
+  .mainBody .up-next,
+  .mainBody .videos {
+    width: 100%;
+  }
+  .main-video img {
+    width: 100%;
+  }
+
+  .videos {
+    padding: 0;
+  }
+
+  .videos .show-more {
+    display: none;
+  }
+
+  .video {
+    height: 90px;
+  }
+
+  .up-next h2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .up-next hr {
+    display: none;
+  }
+
+  .numbers {
+    display: flex;
+  }
+  .numbers span.views {
+    display: none;
+  }
+
+  .numbers span.likes,
+  .numbers span.dislikes,
+  .numbers span.share,
+  .numbers span.save,
+  .numbers span.more,
+  .numbers span.report {
     display: block;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .numbers span.likes i,
+  .numbers span.dislikes i,
+  .numbers span.share i,
+  .numbers span.save i,
+  .numbers span.more i,
+  .numbers span.report i {
+    padding-left: 10px;
+    font-size: 25px;
+  }
+
+  .numbers span.more {
+    display: none;
+  }
+
+  .count {
+    display: none;
+  }
+
+  .left {
+    width: 10%;
+  }
+  .right {
+    width: 40%;
+    padding-left: 30px;
+  }
+
+  .right button {
+    width: 70%;
+    margin-left: 10px;
+    font-size: 11px;
+  }
+  .middle {
+    width: 50%;
+    padding-left: 20px;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .video-img img {
+    width: 50%;
+    height: 80px;
+  }
+
+  .video-details {
+    width: 50%;
+  }
+
+  .video-details h3 {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .video,
+  .video-details h3,
+  .video-details p {
+    padding-left: 10px;
+  }
+
+  .video-details span {
+    display: none;
+  }
+
+  .video-img img {
+    width: 100%;
+  }
+  /*  
+    .add{
+        display: none;
+    } */
+
+  .add-input {
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+
+  .add form {
+    width: 100%;
+    border-color: #ddd;
+  }
+
+  .add-input input {
+    width: 80%;
+    height: 40px;
+  }
+
+  .add-img {
+    width: 20%;
+  }
+
+  .comment-content {
+    padding-left: 30px;
+  }
+
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(96, 96, 96);
+    font-size: 13px;
+    padding-left: 10px;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(96, 96, 96);
+    padding-left: 10px;
+    font-size: 13px;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(96, 96, 96);
+    padding-left: 10px;
+  }
+
+  .dropdown {
+    display: block;
+  }
 }
+
+/* MOBILE MEDIUM */
+
+/* MOBILE SMALL */
+@media screen and (max-width: 320px) {
+  .search {
+    display: none;
+  }
+
+  #active-i {
+    display: flex;
+  }
+  .menuBar i:not(#active-i) {
+    display: none;
+  }
+
+  .title h3 {
+    display: flex;
+    padding-right: 15px;
+    padding-left: 10px;
+  }
+  .title span {
+    font-size: 12px;
+    padding-bottom: 5px;
+  }
+  .mainBody {
+    width: 100%;
+  }
+
+  .mainBody .up-next,
+  .mainBody .videos {
+    width: 100%;
+  }
+  .main-video img {
+    width: 100%;
+  }
+
+  .videos {
+    padding: 0;
+    height: 450px;
+  }
+
+  .videos .show-more {
+    display: none;
+  }
+
+  .video {
+    height: 90px;
+  }
+
+  .up-next h2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .up-next hr {
+    display: none;
+  }
+
+  .numbers {
+    display: flex;
+  }
+  .numbers span.views {
+    display: none;
+  }
+
+  .numbers span.likes,
+  .numbers span.dislikes,
+  .numbers span.share,
+  .numbers span.save,
+  .numbers span.more,
+  .numbers span.report {
+    display: block;
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .numbers span.likes i,
+  .numbers span.dislikes i,
+  .numbers span.share i,
+  .numbers span.save i,
+  .numbers span.more i,
+  .numbers span.report i {
+    padding-left: 10px;
+    font-size: 25px;
+  }
+
+  .numbers span.more {
+    display: none;
+  }
+
+  .left {
+    width: 10%;
+  }
+  .right {
+    width: 40%;
+    /* padding: 50px; */
+  }
+
+  .right button {
+    width: 70%;
+    margin-left: 10px;
+    font-size: 10px;
+  }
+  .middle {
+    width: 50%;
+    padding-left: 20px;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .video-img img {
+    width: 50%;
+    height: 80px;
+  }
+
+  .video-details {
+    width: 50%;
+  }
+
+  .video-details h3 {
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+  .video,
+  .video-details h3,
+  .video-details p {
+    padding-left: 10px;
+  }
+
+  .video-details span {
+    display: none;
+  }
+
+  .video-img img {
+    width: 100%;
+  }
+
+  /* .add{
+       display: none;
+   } */
+
+  .add-input {
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+
+  .add form {
+    width: 100%;
+    border-color: #ddd;
+  }
+
+  .add-input input {
+    width: 80%;
+    height: 40px;
+  }
+
+  .add-img {
+    width: 20%;
+  }
+
+  .comment-content {
+    padding-left: 30px;
+  }
+
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(96, 96, 96);
+    font-size: 13px;
+    padding-left: 10px;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(96, 96, 96);
+    padding-left: 10px;
+    font-size: 13px;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(96, 96, 96);
+    padding-left: 10px;
+  }
+
+  .dropdown {
+    display: block;
+  }
 }
 /* MOBILE SMALL */

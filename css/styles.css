@@ -133,6 +133,11 @@ font-family: 'Roboto', sans-serif;
     padding: 12px 25px;
 }
 
+.catagoriesSection a{
+    text-decoration: none;
+    color: #6d5454;
+}
+
 .active-span{
     background: var(--color-grey-dark);
 }
