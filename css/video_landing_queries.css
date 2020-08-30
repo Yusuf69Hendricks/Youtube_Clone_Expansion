@@ -1,9 +1,4 @@
-/* LAPTOP LARGE  */
-@media screen and (max-width: 986px) {
-   
-  
-  }
-/* LAPTOP LARGE  */
+
 
 /* TABLET  */
 @media screen and (max-width: 986px) {
@@ -18,10 +13,9 @@
   .menuBar .search input{
       width: 300px;
   }
-
-  .title i{
-      padding-left: 55px;
-  }
+.title i{
+    display: none;
+}
 
   .title span{
       font-size: 12px;
@@ -43,6 +37,7 @@
 
   .right button{
       width: 80%;
+      font-size: 10px;
   }
 
   .dropdown{
@@ -69,6 +64,14 @@
       padding-top: 10px;
       padding-bottom: 10px;
   }
+
+  .comments .add form{
+     padding-left: 30px; 
+}
+
+.comments .comment-content{
+    padding-left: 40px;
+}
 }
 /* TABLET  */
 
@@ -99,6 +102,31 @@
         width: 100%;
         font-size: 1.5vw;
     }
+
+    .numbers {
+        display: flex;
+        align-items: center;
+    }
+    .numbers span.views{
+         display: none;
+    }
+ 
+ 
+    .numbers span.likes,.numbers span.dislikes,.numbers span.share,.numbers span.save,.numbers span.more,.numbers span.report{
+        display: block;
+        text-align: center;
+        padding-right:0;
+    }
+ 
+    .numbers span.likes i,.numbers span.dislikes i,.numbers span.share i,.numbers span.save i,.numbers span.more i,.numbers span.report i{
+     padding-left: 10px;
+     font-size: 25px;
+ }
+ 
+    .numbers span.more{
+     display: none;
+ }
+ 
 }
 /* TABLET SM  */
 
@@ -108,9 +136,11 @@
 
 /* MOBILE LARGE  */
 @media screen and (max-width: 500px) {
-    .search {
+    .search,
+    .comments {
         display: none;
     }
+
 
     #active-i{
         display: flex;
@@ -127,6 +157,8 @@
     }
     .title i{
         padding-left: 80px;
+        display: flex;
+        color: #302c2c;
     }
     .title span{
         font-size: 12px;
