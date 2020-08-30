@@ -48,6 +48,8 @@ h4{
 }
 body{
 font-family: 'Roboto', sans-serif;
+width: 100%;
+overflow: hidden;
 }
 
 /* MENU BAR CSS START */
@@ -123,7 +125,9 @@ font-family: 'Roboto', sans-serif;
 .mainBody{
     height: calc(100vh - 70px);
     /* Above basically sets the height of main body to the hight of the screen but calc subtracts the height of menuBar that we set to 70px */
-    display: flex;
+    /* display: flex; */
+    width: 100%;
+    overflow-x: hidden;
     /* overflow: hidden; */
     background-color:#f9f9f9;
     /* above hides the scroolbar */
@@ -131,14 +135,27 @@ font-family: 'Roboto', sans-serif;
 
 .mainBody .up-next{
     height: 100%;
-    width: 800px;
+    /* width: 800px; */
+    width: 45%;
     /* background-color: red; */ 
     /* adds scroll bar for the hieght of the div */
+}
+
+
+
+.mainBody .videos,.mainBody .up-next{
+    float: left;
+}
+
+.videos::after,.up-next:after{
+    content: "";
+    display: table;
+    clear: both;
 }
 /* VIDEOS  */
  .videos {
     background: var(--color-bg); 
-    width: 100%;
+    width: 55%;
     height: 100%;
     padding: 15px 25px;
     border-top: 1px solid #ddd;
@@ -291,9 +308,11 @@ font-family: 'Roboto', sans-serif;
   
   .add-input form input{
       border: none;
+      outline: none;
   }
 .comment {
     line-height: 1.5;
+    min-height: 500px;
 }
   .comment-img img{
       width: 40px;
@@ -394,4 +413,68 @@ font-family: 'Roboto', sans-serif;
   }
 
 /* UP-NEXT  */
-/* MAIN BODY CSS END */
+
+
+/* DROP DOWN */
+
+.videos a{
+    padding-left: 10px;
+}
+
+/* .dropdown{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+} */
+
+
+.drop{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:#f9f9f9;
+}
+
+.drop i{
+    font-size: 50px;
+     cursor: pointer;
+    user-select: none;
+}
+
+.video-source .left{
+    padding-left: 10px;
+}
+
+.video-source .middle h3,
+.video-source .middle p{
+    margin-left: 10px;
+}
+.video-source .right button{
+    margin-left: 30px;
+}
+.count{
+    padding-left: 10px;
+}
+
+.up-next h2{
+    font-size: 14px;
+}
+.add-input form {
+    border: 1px solid rgb(96, 96, 96);
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+#myDIV {
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+    height: 1000px;
+  }
+/* DROP DOWN  */
+/* MAIN BODY CSS END * 
