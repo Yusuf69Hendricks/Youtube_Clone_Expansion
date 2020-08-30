@@ -6,7 +6,7 @@
 /* LAPTOP LARGE  */
 
 /* TABLET  */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 986px) {
    #active-i{
        display: none;
    }
@@ -26,7 +26,6 @@
   .title span{
       font-size: 12px;
       padding-bottom: 5px;
-      padding-left: 10px;
   }
 
 
@@ -40,7 +39,10 @@
 
   .video-source .right button{
       margin-left: 0;
-      font-size: 12px;
+  }
+
+  .right button{
+      width: 80%;
   }
 
   .dropdown{
@@ -70,8 +72,42 @@
 }
 /* TABLET  */
 
+/* TABLET SM */
+@media screen and (max-width:767px){
+    .video-img img{
+        width: 90%;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .video-source .middle{
+        padding-left: 30px
+    }
+
+    .show-more p{
+        padding-left: 15px;
+        padding-right: 0;
+    }
+
+    .show-more h4{
+        padding-left: 0;
+    }
+
+    .right button{
+        width: 100%;
+        font-size: 1.5vw;
+    }
+}
+/* TABLET SM  */
+
+
+
+
+
 /* MOBILE LARGE  */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 500px) {
     .search {
         display: none;
     }
@@ -92,7 +128,11 @@
     .title i{
         padding-left: 80px;
     }
- 
+    .title span{
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+    }
     .mainBody {
         width: 100%;
     }
@@ -123,6 +163,7 @@
     .up-next h2{
         margin-bottom: 10px;
         margin-left: 10px;
+        margin-top: 20px;
     }
  
     .up-next hr{
@@ -161,12 +202,13 @@
     }
     .right{
         width: 40%;
+        padding-left: 50px;
  
     }
  
     .right button{
-        width: 70%;
-        margin-left: 10px;
+        width: 80%;
+        font-size: 14px;
     }
     .middle{
      width: 50%;
@@ -178,12 +220,12 @@
     }
  
     .video-img img{
-        width: 40%;
+        width: 50%;
         height: 80px;
     }
  
     .video-details{
-        width: 60%;
+        width: 50%;
     }
  
     .video-details h3{
@@ -201,7 +243,9 @@
     .video-img img{
         width: 100%;
     }
-
+    .dropdown {
+        display: block;
+    }
     .drop{
         border-top:1px solid #ddd;
         padding-top: 15px;
@@ -278,7 +322,7 @@
 /* MOBILE LARGE  */
 
 /* MOBILE MEDIUM */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 421px) {
     .search {
         display: none;
     }
@@ -294,6 +338,12 @@
      display: flex;
      padding-right: 15px;
      padding-left: 10px;
+    }
+
+    .title span{
+        font-size: 12px;
+        padding-bottom: 5px;
+        padding-left: 10px;
     }
  
     .title i{
@@ -329,6 +379,7 @@
     .up-next h2{
         margin-bottom: 10px;
         margin-left: 10px;
+        margin-top: 20px;
     }
  
     .up-next hr{
@@ -368,12 +419,14 @@
     }
     .right{
         width: 40%;
+        padding-left: 30px;
  
     }
  
     .right button{
         width: 70%;
         margin-left: 10px;
+        font-size: 11px;
     }
     .middle{
      width: 50%;
@@ -385,12 +438,12 @@
     }
  
     .video-img img{
-        width: 40%;
+        width: 50%;
         height: 80px;
     }
  
     .video-details{
-        width: 60%;
+        width: 50%;
     }
  
     .video-details h3{
@@ -455,6 +508,10 @@
      color: rgb(96, 96, 96);
      padding-left: 10px;
  }
+
+ .dropdown {
+    display: block;
+}
    
    
  }
@@ -480,7 +537,10 @@
     padding-right: 15px;
     padding-left: 10px;
    }
-
+   .title span{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
    .mainBody {
        width: 100%;
    }
@@ -509,6 +569,7 @@
    .up-next h2{
        margin-bottom: 10px;
        margin-left: 10px;
+       margin-top: 20px;
    }
 
    .up-next hr{
@@ -545,12 +606,14 @@
    }
    .right{
        width: 40%;
+       /* padding: 50px; */
 
    }
 
    .right button{
        width: 70%;
        margin-left: 10px;
+       font-size: 10px;
    }
    .middle{
     width: 50%;
@@ -562,12 +625,12 @@
    }
 
    .video-img img{
-       width: 40%;
+       width: 50%;
        height: 80px;
    }
 
    .video-details{
-       width: 60%;
+       width: 50%;
    }
 
    .video-details h3{
@@ -631,6 +694,10 @@
   ::-ms-input-placeholder { /* Microsoft Edge */
     color: rgb(96, 96, 96);
     padding-left: 10px;
+}
+
+.dropdown {
+    display: block;
 }
 }
 /* MOBILE SMALL */
