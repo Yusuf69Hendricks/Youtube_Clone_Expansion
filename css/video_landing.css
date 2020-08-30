@@ -158,7 +158,6 @@ overflow: hidden;
     width: 55%;
     height: 100%;
     padding: 15px 25px;
-    border-top: 1px solid #ddd;
 
  }
 
@@ -190,25 +189,17 @@ overflow: hidden;
      padding-bottom: 20px;
  }
 
+
  .videos i{
      font-size: 20px;
      color: #999;
      padding-right: 10px;
  }
 
- .videos span.views{
-     padding-right: 70px;
-     font-size: 13px;
- }
-
- .videos span.likes,.videos span.dislikes,.videos span.share,.videos span.save{
-     padding-right: 20px; 
- }
 
  /* .videos span.likes, .videos span.dislikes{
      border-bottom: 2px solid #999;
  } */
-
 
  
  .left,

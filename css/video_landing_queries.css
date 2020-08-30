@@ -7,8 +7,66 @@
 
 /* TABLET  */
 @media screen and (max-width: 768px) {
-   
-  
+   #active-i{
+       display: none;
+   }
+  .icons{
+      display: flex;
+      align-items: center;
+  }
+
+  .menuBar .search input{
+      width: 300px;
+  }
+
+  .title i{
+      padding-left: 55px;
+  }
+
+  .title span{
+      font-size: 12px;
+      padding-bottom: 5px;
+      padding-left: 10px;
+  }
+
+
+  .video-details {
+      width: 50%;
+  }
+
+  .video-img {
+      width: 50%;
+  }
+
+  .video-source .right button{
+      margin-left: 0;
+      font-size: 12px;
+  }
+
+  .dropdown{
+      display: none;
+  }
+ 
+  .videos span.views{
+      padding: 0;
+      display: none;
+  }
+  .videos span.more{
+      display: none;
+  }
+  .videos span.likes, .videos span.dislikes, .videos span.share, .videos span.save{
+      padding: 5px;
+  }
+
+
+  .numbers{
+      display: flex;
+  }
+
+  .up-next h2{
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
 }
 /* TABLET  */
 
@@ -16,6 +74,10 @@
 @media screen and (max-width: 425px) {
     .search {
         display: none;
+    }
+
+    #active-i{
+        display: flex;
     }
  
     .menuBar i:not(#active-i){
@@ -143,6 +205,8 @@
     .drop{
         border-top:1px solid #ddd;
         padding-top: 15px;
+        padding-bottom: 10px;
+        
     }
     .drop h3{
         display: none;
@@ -164,6 +228,49 @@
    .add{
        border-bottom: 1px solid #ddd;
    }
+
+   .add-input{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.add form{
+    width: 100%;
+    border-color: #ddd;
+}
+
+.add-input input{
+    width: 85%;
+    height: 40px;
+   
+}
+
+.add-img{
+    width: 15%;
+}
+
+.comment-content{
+    padding-left: 30px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+ color: rgb(96, 96, 96);
+ font-size: 13px;
+ padding-left: 10px;
+ opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: rgb(96, 96, 96);
+ padding-left: 10px;
+ font-size: 13px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: rgb(96, 96, 96);
+ padding-left: 10px;
+}
    
  }
   
@@ -174,6 +281,9 @@
 @media screen and (max-width: 375px) {
     .search {
         display: none;
+    }
+    #active-i{
+        display: flex;
     }
  
     .menuBar i:not(#active-i){
@@ -302,6 +412,49 @@
     .add{
         display: none;
     } */
+
+    .add-input{
+        width: 80%;
+        display: flex;
+        align-items: center;
+    }
+ 
+    .add form{
+        width: 100%;
+        border-color: #ddd;
+    }
+ 
+    .add-input input{
+        width: 80%;
+        height: 40px;
+       
+    }
+ 
+    .add-img{
+        width: 20%;
+    }
+   
+    .comment-content{
+        padding-left: 30px;
+    }
+ 
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+     color: rgb(96, 96, 96);
+     font-size: 13px;
+     padding-left: 10px;
+     opacity: 1; /* Firefox */
+   }
+   
+   :-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: rgb(96, 96, 96);
+     padding-left: 10px;
+     font-size: 13px;
+   }
+   
+   ::-ms-input-placeholder { /* Microsoft Edge */
+     color: rgb(96, 96, 96);
+     padding-left: 10px;
+ }
    
    
  }
@@ -315,6 +468,9 @@
        display: none;
    }
 
+   #active-i{
+    display: flex;
+}
    .menuBar i:not(#active-i){
        display: none;
    }
