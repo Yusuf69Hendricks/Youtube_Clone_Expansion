@@ -49,6 +49,9 @@ font-family: 'Roboto', sans-serif;
     height: 70px;
 
 }
+.menuBar #active-i{
+    display: none;
+}
 
 .menuBar .logo{
     display: flex;
