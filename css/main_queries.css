@@ -1,3 +1,17 @@
+/* DESKTOP  */
+/* LAPTOP  */
+@media screen and (max-width: 1313px) {
+    .catagories{
+      display: none;
+    }
+    
+    .mini-category{
+      display: block;
+    }
+  
+  }
+/* DESKTOP  */
+
 /* TAB LARGE  */
 @media screen and (max-width: 1000px) {
       .menuBar .search form{
@@ -11,22 +25,6 @@
 }
 /* TAB LARGE  */
 
-/* TAB LARGE  */
-@media screen and (max-width: 768px) {
-
-    .catagories{
-        display: none;
-      }
-    .mini-category{
-        display: block;
-      }
-
-      .menuBar .search form{
-        display: none;
-    }
-
-}
-/* TAB LARGE  */
 /* TAB MEDIUM  */
 @media screen and (max-width: 650px) {
 
