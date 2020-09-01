@@ -103,6 +103,15 @@
     .videos .videosGrid .video {
         width: 100%;
     }
+
+    .footer-category {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .author img{
+        margin-left: 10px;
+    }
 }
 /* MOBILE LARGE  */
 

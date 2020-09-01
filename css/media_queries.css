@@ -123,6 +123,14 @@
   .left, .right,.middle{
     display: flex;
 }
+
+.footer-category {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+}
+
 /* MOBILE LARGE */
 
 /* MOBILE MEDIUM  */
@@ -159,7 +167,7 @@
  
 }
 
-}
+
 /* MOBILE MEDIUM  */
 
 
