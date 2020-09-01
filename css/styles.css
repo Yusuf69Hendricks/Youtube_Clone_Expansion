@@ -219,4 +219,43 @@ font-family: 'Roboto', sans-serif;
    /* font-weight: lighter; */
 }
 
+/* MINI CATEGORY START  */
+.mini-category{
+    display: none;
+    height: 100%;
+    width: 70px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    /* background-color: red; */
+ }
+
+ .mini-category .res-category{
+     padding: 5px;
+     margin-bottom: 25px;
+ }
+
+ .mini-category .res-category i {
+     font-size: 20px;
+ }
+
+ .mini-category p{
+    font-size: 10px;
+    color: rgb(96, 96, 96);
+ }
+
+ .mini-category .res-category .material-icons.active,.res-category .p-active {
+    color: red;
+}
+
+.mini-category .res-category:hover{
+    background: var(--color-grey-light);
+    cursor: pointer;
+}
+
+.mini-category .res-category a{
+    text-decoration: none;
+}
+/* MINI CATEGORY END  */
+
 /* MAIN BODY CSS END */
